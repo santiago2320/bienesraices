@@ -1,0 +1,22 @@
+{
+    "name": "asus/bienesraices",
+    "description": "Creando un proyecto POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Lucien Santiago Parra Suarez",
+            "email": "santiagolope373@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.6",
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
